@@ -1,0 +1,5 @@
+﻿MongoDB stats
+Request/Response payload size
+UserId of the request to log
+CPU Usage
+Memory Usage (Working Set)

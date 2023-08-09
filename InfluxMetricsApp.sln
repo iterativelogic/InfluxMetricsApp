@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfluxMetricsApp", "InfluxMetricsApp\InfluxMetricsApp.csproj", "{2593931D-B9E6-4B10-AA5B-3C35D58C5F15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{64A25A9A-E67E-4529-AC6E-28C27349A08E}"
+	ProjectSection(SolutionItems) = preProject
+		Test.http = Test.http
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2593931D-B9E6-4B10-AA5B-3C35D58C5F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2593931D-B9E6-4B10-AA5B-3C35D58C5F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2593931D-B9E6-4B10-AA5B-3C35D58C5F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2593931D-B9E6-4B10-AA5B-3C35D58C5F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E54CE78-44B4-4022-BAC6-4D51121041CE}
+	EndGlobalSection
+EndGlobal
